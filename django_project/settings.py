@@ -28,6 +28,13 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
     "debug_toolbar",
+    "django_browser_reload",
+    "django_htmx",
+    "pghistory",
+    "pgtrigger",
+    "template_partials",
+    "django_tui",
+
     # Local
     "accounts",
     "pages",
@@ -45,6 +52,8 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "allauth.account.middleware.AccountMiddleware",  # django-allauth
+    "django_htmx.middleware.HtmxMiddleware", # django-htmx
+    "django_browser_reload.middleware.BrowserReloadMiddleware", # django-browser-reload
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#root-urlconf
