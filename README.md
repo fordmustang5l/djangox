@@ -1,10 +1,16 @@
-### djangx + plus
+### djangox + plus
 
-- htmx, hyperscript, idomorph
+- htmx 1.9.11
+- hyperscript 0.9.12
+- idomorph 0.3.0
 - django markdownx
+- django_browser_reload
+- django_htmx
+- pghistory
+- pgtrigger
+- template_partials
+- django_tui
   
-  
-
 
 ---
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
