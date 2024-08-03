@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     "debug_toolbar",
     "django_browser_reload",
     "django_htmx",
+    "django_extensions",
+    "dynamic_forms",
     "pghistory",
     "pgtrigger",
     "template_partials",
